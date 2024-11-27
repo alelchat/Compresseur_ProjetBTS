@@ -1,6 +1,3 @@
 Compresseur Project
 
-FROM :
-LOSSON Thomas
-GUILBERT ROMAIN
-LELCHAT ANTHONY
+FROM : LOSSON Thomas - GUILBERT Romain - LELCHAT Anthony
