@@ -1,0 +1,26 @@
+body{
+  background-color: #F5F5F5;      
+}
+html{
+  font-size: 100%;
+}
+.titre{
+  font-family:"trebuchet ms"; 
+  font-size:30px; 
+  color:#252525;
+  text-align:center; 
+  margin-bottom:20px; 
+  border: 3px solid #3498DB;
+  border-style: solid;
+  border-radius:20px;
+  background-color: #85C1E9;
+  padding: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.alerteImages{
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 60%;
+  cursor: pointer;
+}

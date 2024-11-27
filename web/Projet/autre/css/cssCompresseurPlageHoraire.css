@@ -1,0 +1,73 @@
+/* ÉTUDIANT 2 */
+td{
+  cursor: pointer;
+}
+body{
+  background-color: whitesmoke;     
+}
+.lesBoutons{
+  width: 100%;
+  margin-top: 5%;
+  font-family:"trebuchet ms";
+  font-size:30px;
+  color:#252525;
+  text-align:center;
+  margin-bottom:20px;
+  border: 3px solid #27AE60;
+  border-style: solid;
+  cursor: pointer;
+  border-radius:20px;
+  background-color: #A9DFBF;
+  padding: 30px;
+}
+#tableauBouton{
+  margin-right: auto;
+  margin-left: auto;
+}
+#boutonAnnuler{ 
+  padding: 30px;
+}
+#boutonEnregistrer{
+  padding: 30px;
+}
+.lesBoutons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.lesBoutons:hover {
+  background-color: #27AE60; 
+}
+.lesBoutons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#inputSemaineEntretien{
+  background-color: "whitesmoke";
+  position: fixed;
+  right: 40px;
+}
+.semaineAffichage{
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  transform: translate(-50%,-50%);
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  border-style: groove;
+  border-color: black;
+  text-align:center;
+}
+#tableau1{
+  width: 75%;
+}
+#tableau2{
+  width: 75%;
+}
+.divsemaineEntretien{
+  /* En construction  */
+}

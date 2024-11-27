@@ -1,0 +1,91 @@
+/* ÉTUDIANT 3 */
+/* Configuration pour le style du tableau principal */
+.tableSeuilsAlerte td, th {
+  border: 1px solid #9fc330;
+  text-align: left;
+  padding: 8px;
+  height: 100%;
+  font-size: 280%;
+}
+th{
+  background-color: #a7c942;
+}
+tr:nth-child(even) {
+  background-color: #eaf2d3;
+}
+.zoneTableau table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+/* Là c'est pour faire la selection de texte */
+input[type=text] {
+  width: 80%;
+  height: 95px;
+  padding: 0px;
+  background-color: transparent;
+  border: 3px solid transparent;
+  text-align: right;
+  cursor: pointer;
+  font-size: 100%;
+}
+/* Configuration pour le check */
+.zoneCheck {
+  font-size: 24px;
+  cursor: pointer;
+  caret-color: transparent;
+  display: block;
+}
+.zoneCheck input {
+  display:none;
+}
+.img-checked {
+  display: none;
+}
+.zoneCheck input:checked ~ .img-checked {
+  display: inline;
+}
+.zoneCheck input:checked ~ .img-unchecked {
+  display: none;
+}
+/* Pour configurer les boutons, je les ai mis deans un tableau pour qu'ils soient cote cote */
+.lesBoutons{
+  width: 100%;
+  margin-top: 5%;
+  font-family:"trebuchet ms";
+  font-size:30px;
+  color:#252525;
+  text-align:center;
+  margin-bottom:20px;
+  border: 3px solid #27AE60;
+  border-style: solid;
+  cursor: pointer;
+  border-radius:20px;
+  background-color: #A9DFBF;
+  padding: 30px;
+}
+#tableauBouton{
+  margin-right: auto;
+  margin-left: auto;
+}
+#boutonAnnuler{ 
+  padding: 30px;
+}
+#boutonEnregistrer{
+  padding: 30px;
+}
+.lesBoutons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.lesBoutons:hover {
+  background-color: #27AE60;
+}
+.lesBoutons:hover span:after {
+  opacity: 1;
+  right: 0;
+}

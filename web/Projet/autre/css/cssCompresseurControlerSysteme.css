@@ -1,0 +1,162 @@
+/* ÉTUDIANT 1 et 3 */
+/* ÉTUDIANT 1 */
+h1{
+  font-family:"trebuchet ms"; 
+  font-size:30px;
+  color:#252525;
+  text-align:center; 
+  margin-bottom:20px; 
+  border: 3px solid #3498DB;
+  border-style: solid;
+  border-radius:20px;
+  border fill;
+  background-color: #85C1E9;
+  padding: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h2{
+  font-family:"trebuchet ms"; 
+  font-size:30px;
+  color:#252525;
+  text-align:center; 
+  margin-bottom:20px; 
+  border: 3px solid #3498DB;
+  border-style: solid;
+  border-radius:20px;
+  border fill;
+  background-color: #85C1E9;
+  padding: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+/*Les div*/
+.pageDeGauche{
+  float: left;
+  width: 40vw;
+  height: 100vh;
+  grid-column: 1/2;
+  grid-row: 1;
+}
+.pageDeDroit{
+  margin-top: 0%;
+  float: right;
+  width: 49vw;
+  height: 100vh;
+  grid-column: 2/2;
+  grid-row: 1;
+}
+.tableauBouton{
+  width: 100%;
+}
+/* Pour configurer les boutons, je les ai mis dans un tableau pour qu'ils soient cote cote */
+.lesBoutons{
+  font-family:"trebuchet ms";
+  font-size:30px;
+  color:#252525;
+  text-align:center;
+  margin-bottom:20px;
+  border: 3px solid #27AE60;
+  border-style: solid;
+  cursor: pointer;
+  border-radius:20px;
+  background-color: #A9DFBF;
+  padding: 30px;
+}
+#boutonProgrammerSeuilsAlerte{
+  padding: auto;
+  width: auto;
+  margin-bottom: 1%;
+  margin-left: 30%;
+  margin-top: auto;
+}
+#boutonHaut{
+  margin-left: 50%;
+  padding: auto;
+  width: auto;
+}
+#boutonBas{
+  margin-right: 50%;
+  padding: auto;
+  width: auto;
+}
+.lesBoutons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.lesBoutons:hover {
+  background-color: #27AE60;
+}
+.lesBoutons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* Boutons invisible */
+.flecheInvisible{
+  padding: 10px;
+  font-size: 150%;
+  background-color: transparent; 
+  border: transparent;
+  text-orientation: mixed;
+}
+/* Configuration pour le style du tableau principal */
+.tableHistoriqueSeuilsAlerte td, th {
+  border: 1px solid #9fc330;
+  text-align: left;
+  padding: 8px;
+  height: 100%;
+  font-size: 30px;
+}
+th{
+  background-color: #a7c942;
+}
+tr:nth-child(even){
+  background-color: #eaf2d3;
+}
+.zoneTableau table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+/* ÉTUDIANT 1 */
+.allumage{
+  margin-top: 5%;
+  margin-right: 50%;
+  text-align: center;
+}
+.purge{  
+  text-align: center;
+}
+.ovale{ 
+  font-family:"trebuchet ms"; 
+  font-size: 1.5em;
+  text-align:middle;
+  vertical-align:middle;
+  line-height: 110px; 
+  width: 300px;
+  height: 120px;
+  vertical-align: bottom;
+  border: 3px solid #27AE60;
+  background: linear-gradient(#A9DFBF, #2ECC71);
+  -webkit-border-radius: 150px / 60px;
+  -moz-border-radius:    150px / 60px; 
+  border-radius:         150px / 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.informationEtat{
+  font-family:"trebuchet ms"; 
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#etat {
+  font-family:"trebuchet ms"; 
+  font-size: 1.3em;
+  top:50%;
+  bottom: 50%;
+  line-height: 70px;  
+}

@@ -1,0 +1,98 @@
+/* ÉTUDIANT 3 */
+.titreConfig{
+  background-color: transparent;
+  border: transparent;
+  height: 0%;
+}
+#titreEmail{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: 20%;
+}
+#titreCompresseur{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: 20%;
+}
+/* Configuration pour le style des tableaus */
+.tableauConfig td, th {
+  border: 1px solid #9fc330;
+  text-align: center;
+  padding: 2%;
+  height: 10%;
+  font-size: 200%;
+}
+th{
+  background-color: #a7c942;
+  text-align: center;
+  width: 0%;
+}
+tr:nth-child(even) {
+  background-color: #eaf2d3;
+  text-align: center;
+}
+.images{
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 60%;
+  cursor: pointer;
+}
+.valeur{
+  border: 1px solid #9fc330;
+  text-align: center;
+  cursor: pointer;
+  font-size: 90%;
+  background-color: transparent;
+  border: transparent;
+}
+/* Page gauche */
+.pageDeGauche{
+  margin-top: -8%;
+  float: left;
+  height: 0vh;
+  width: 48vw;
+}
+/* Page droite */
+.pageDeDroit{
+  margin-top: -5%;
+  float: right;
+  height: 0vh;
+  width: 40vw;
+}
+/* BOUTON RETOUR */
+#boutonRetour{
+  margin-top: 3%;
+}
+#zoneBoutonRetour
+{
+  margin-left: 30%;
+}
+/* Pour configurer les boutons, je les ai mis dans un tableau pour qu'ils soient cote cote */
+.lesBoutons{
+  margin-left: auto;
+  margin-right: auto;
+  font-family:"trebuchet ms";
+  font-size:30px;
+  color:#252525;
+  text-align:center;
+  margin-bottom:20px;
+  border: 3px solid #27AE60;
+  border-style: solid;
+  cursor: pointer;
+  border-radius:20px;
+  background-color: #A9DFBF;
+  padding: 30px;
+}
+.lesBoutons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.lesBoutons:hover {
+  background-color: #27AE60; 
+}
+.lesBoutons:hover span:after {
+  opacity: 1;
+  right: 0;
+}

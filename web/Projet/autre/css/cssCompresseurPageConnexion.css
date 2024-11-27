@@ -1,0 +1,98 @@
+body {
+    min-height: 100vh;
+ }
+ .rectangle{
+     position: absolute;
+     /*top: 40%;
+     left: 40%;*/
+ 
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ 
+     width: 30%;
+     height: 30vh;
+     padding: 2%;
+     background: #A9DFBF;
+     border-radius: 10px;
+     text-align:center;
+     font-size: min(3vh, 20px);
+     /* margin-left: auto;
+     margin-right: auto; */
+ 
+     
+     /* Permet de créer une ombre en relief */
+     -moz-box-shadow: 4px 4px 10px #888;  
+     -webkit-box-shadow: 4px 4px 10px #888;  
+     box-shadow:4px 4px 6px #888; 
+ }
+ .connexion{
+     top: 10%;
+     left: 10%;
+     height: 2vh;
+     color: black;
+     width: 100%;
+     margin-bottom: 15%;
+  }
+  .password{
+     color: black;
+     width: 100%; /*68%*/
+     height: 1vh;
+     text-align: center;
+     margin-left: 7%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex: none;
+     top: 10%;
+     left: 10%;
+     /* transform: translate(-10%,-10%); */
+  }
+  #eye {
+     cursor: pointer;
+     width: 10%;
+     height: 3vh;
+     top: 10%;
+     left: 10%;
+     margin-left: -10%;
+  }
+  #mail{
+    height: 2vh;
+    width: 70%;
+  }
+  #mdp{
+    width: 70%;
+    height: 2vh;
+  }
+  .mail{
+     color: black;
+     width: 100%; /*68%*/
+     height: 1vh;
+     text-align: center;
+     margin-left: 7%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex: none;
+     top: 10%;
+     left: 10%;
+     margin-bottom: 7%;
+     /* transform: translate(-10%,-10%); */
+  }
+  #labelMail{
+    width: 30%;
+ 
+  }
+  #labelMdp{
+    width: 30%;
+ 
+  }
+  #boutonEnregistrer{
+    margin-top: 10%;
+    width: 20%;
+    height: 2.5vh;
+    font-size: min(1.5vh, 40px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
